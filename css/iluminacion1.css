@@ -1,0 +1,23 @@
+#principal{
+  width: 88.5%;
+  height:77%;
+  position: relative;
+  top: -700px;
+  left: 147px;
+}
+
+#principal > h1 {
+  font-weight: bold;
+  color: #0ca1ff;
+  font-family: arial;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#principal > a > img {
+  width: 700px;
+  position: relative;
+  left: 230px;
+  filter: brightness(0.8);
+
+}

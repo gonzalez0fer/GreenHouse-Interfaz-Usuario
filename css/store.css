@@ -1,0 +1,37 @@
+#puntaje{
+  width: 44.25%;
+  height: 80%;
+  position: relative;
+  top: -755px;
+  left: 147px;
+  border-right: thick double gray;
+}
+
+#catalogo{
+  width: 44.24%;
+  height: 80%;
+  position: relative;
+  top: -1310px;
+  left: 713px;
+  border-right: thick double gray;
+}
+
+
+#puntaje h1, #puntaje h1,
+#puntaje h2, #puntaje h2{
+  color: #e6e6e6;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+#puntaje h1 > span, #puntaje h1 > span,
+#puntaje h2 > span, #puntaje h2 > span{
+  color: #0ca1ff;
+}
+
+#catalogo > div > img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.5);
+}

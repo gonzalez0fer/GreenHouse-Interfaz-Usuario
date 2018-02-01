@@ -1,0 +1,89 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #000;
+  background-image: url("../img/background.jpg");
+
+}
+
+#contenedor{
+  width : 1280px;
+  height: 720px;
+  background:#1F1F1F url(../images/pattern.png) repeat top left;
+  border: 2px solid white;
+  margin-top: 70px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-fixed-left {
+  width: 140px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 139px;
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 160px;
+}
+
+#contenedor > div > ul > li .active{
+  border-right: thick double #0ca1ff;
+  color: #0ca1ff
+
+}
+
+#contenedor > div > ul > li > a:hover{
+  border-right: thick double #0ca1ff;
+  color: #0ca1ff;
+}
+
+
+
+#contenedor > div > ul{
+  position: relative;
+  top: 60px;
+}
+
+
+#contenedor > div > a:hover{
+  color: #14ff43;
+  transition: 0.8s;
+}
+
+#contenedor > div{
+  width: 11.5%;
+}
+#contenedor > div > ul > li > a{
+  width: 145px;
+}
+
+
+#banner{
+  width: 88.5%;
+  height: 20%;
+  background-color: #050100;
+  position: relative;
+  top: -736px;
+  left: 147px;
+  border-bottom: 1px solid gray;
+}
+
+#banner h1{
+  position: relative;
+  top: 30px;
+}
+
+#banner > div > img{
+  height: 141px;
+
+}

@@ -1,0 +1,150 @@
+body{
+  overflow: hidden;
+}
+
+#principal{
+  width: 88.5%;
+  height:77%;
+  position: relative;
+  top: -700px;
+  left: 147px;
+}
+#camara{
+  position: relative;
+  top: -1365px;
+  left: 35px;
+
+}
+
+#principal h1{
+  color: gray;
+  position: relative;
+  left: 50px;
+  top: -30px;
+}
+
+.fondo > img{
+  height: 500px;
+  width: 1100px;
+  position: relative;
+  top: -45px;
+  left: 22px;
+}
+
+#cont1 > img , #cont2 > img ,#cont3 > img ,#cont4 > img ,
+#cont5 > img ,#cont6 > img ,#cont7 > img ,#cont8 > img{
+  width: 240px;
+  height: 120px;
+}
+
+#cont1 > img{
+  position: relative;
+  top: -500px;
+  left: 60px;
+}
+
+#cont2 > img{
+  position: relative;
+  top: -620px;
+  left: 320px;
+}
+
+#cont3 > img{
+  position: relative;
+  top: -740px;
+  left: 580px;
+}
+
+#cont4 > img{
+  position: relative;
+  top: -860px;
+  left: 840px;
+}
+
+#tit1 > p {
+  color: #e6e6e6;
+  font-size: 20px;
+  position: relative;
+  top: -850px;
+  left: 140px;
+}
+
+#tit2 > p {
+  color: #e6e6e6;
+  font-size: 20px;
+  position: relative;
+  top: -890px;
+  left: 370px;
+}
+
+#tit3 > p {
+  color: #e6e6e6;
+  font-size: 20px;
+  position: relative;
+  top: -930px;
+  left: 660px;
+}
+
+#tit4 > p {
+  color: #e6e6e6;
+  font-size: 20px;
+  position: relative;
+  top: -970px;
+  left: 900px;
+}
+
+#cont5 > img{
+  position: relative;
+  top: -920px;
+  left: 60px;
+}
+
+#cont6 > img{
+  position: relative;
+  top: -1040px;
+  left: 320px;
+}
+
+#cont7 > img{
+  position: relative;
+  top: -1160px;
+  left: 580px;
+}
+
+#cont8 > img{
+  position: relative;
+  top: -1280px;
+  left: 840px;
+}
+
+#tit5 > p {
+  color: #e6e6e6;
+  font-size: 20px;
+  position: relative;
+  top: -1269px;
+  left: 158px;
+}
+
+#tit6 > p {
+  color: #e6e6e6;
+  font-size: 20px;
+  position: relative;
+  top: -1305px;
+  left: 408px;
+}
+
+#tit7 > p {
+  color: #e6e6e6;
+  font-size: 20px;
+  position: relative;
+  top: -1345px;
+  left: 678px;
+}
+
+#tit8 > p {
+  color: #e6e6e6;
+  font-size: 20px;
+  position: relative;
+  top: -1384px;
+  left: 928px;
+}

@@ -1,0 +1,242 @@
+body{
+  overflow: hidden;
+}
+#principal{
+  width: 88.5%;
+  height:77%;
+  position: relative;
+  top: -700px;
+  left: 147px;
+}
+
+#a1 > h3, #a2 > h3,
+#a3 > h3, #a4 > h3,
+#a5 > h3
+{
+font-family: arial;
+color: #0ca1ff;
+font-weight: bold;
+}
+
+#btn1{
+  position: relative;
+  top:-3600px;
+  left: 50px;
+}
+
+#btn2{
+  position: relative;
+  top:-3635px;
+  left: 270px;
+}
+
+#btn3{
+  position: relative;
+  top:-3670px;
+  left: 490px;
+}
+#btn4{
+  position: relative;
+  top:-3705px;
+  left: 710px;
+}
+#btn5{
+  position: relative;
+  top:-3740px;
+  left: 930px;
+}
+#b1 > h1{
+  color: #c90404;
+  font-weight: bold;
+  position: relative;
+  top: -3300px;
+  left: 85px;
+}
+
+#b1 > h1 > small{
+  position: relative;
+  left: 8px;
+}
+
+#b2 > h1{
+  color: #c99e04;
+  font-weight: bold;
+  position: relative;
+  top: -3400px;
+  left: 305px;
+}
+
+#b2 > h1 > small{
+  position: relative;
+  left: 8px;
+}
+
+#b3 > h1{
+  color: #9bc904;
+  font-weight: bold;
+  position: relative;
+  top: -3500px;
+  left: 525px;
+}
+
+#b3 > h1 > small{
+  position: relative;
+  left: 8px;
+}
+
+#b4 > h1{
+  color: #6ac904;
+  font-weight: bold;
+  position: relative;
+  top: -3600px;
+  left: 748px;
+}
+
+#b4 > h1 > small{
+  position: relative;
+  left: 8px;
+}
+
+#b5 > h1{
+  color: #35c904;
+  font-weight: bold;
+  position: relative;
+  top: -3700px;
+  left: 968px;
+}
+
+#b5 > h1 > small{
+  position: relative;
+  left: 8px;
+}
+
+
+#a1 > h3{
+  position: relative;
+  top: -3130px;
+  left: 65px;
+}
+
+#a2 > h3{
+  position: relative;
+  top: -3175px;
+  left: 290px;
+}
+#a3 > h3{
+  position: relative;
+  top: -3220px;
+  left: 515px;
+}
+#a4 > h3{
+  position: relative;
+  top: -3267px;
+  left: 740px;
+}
+#a5 > h3{
+  position: relative;
+  top: -3313px;
+  left: 965px;
+}
+
+#organica > img,
+#aluminio > img,
+#plastico > img,
+#carton > img,
+#cristal > img{
+  height: 550px;
+  width: 200px;
+
+}
+
+#banana > img{
+  position: relative;
+  top: -2700px;
+  left: 55px;
+  width: 120px;
+  filter: brightness(0.9);
+
+
+}
+#lata > img{
+  position: relative;
+  top: -2810px;
+  left: 285px;
+  width: 110px;
+  filter: brightness(0.9);
+
+}
+#mineral > img{
+  position: relative;
+  top: -2916px;
+  left: 500px;
+  width: 120px;
+  filter: brightness(0.9);
+
+}
+
+#caja > img{
+  position: relative;
+  top: -3015px;
+  left: 720px;
+  width: 120px;
+  filter: brightness(0.9);
+
+}
+
+#glass > img{
+  position: relative;
+  top: -3135px;
+  left: 975px;
+  height: 100px;
+
+  filter: brightness(0.9);
+}
+
+#organica > img{
+  display: inherit;
+  position: relative;
+  top: -30px;
+  left: 20px;
+  filter: brightness(-100);
+
+}
+#aluminio > img{
+  display: inherit;
+
+  position: relative;
+  top: -580px;
+  left: 240px;
+  filter: brightness(-100);
+
+}
+#plastico > img{
+  position: relative;
+  top: -1130px;
+  left: 460px;
+  filter: brightness(-100);
+
+}
+
+#carton > img{
+  position: relative;
+  top: -1680px;
+  left: 680px;
+  filter: brightness(-100);
+
+}
+
+#cristal > img{
+  position: relative;
+  top: -2230px;
+  left: 900px;
+  filter: brightness(-100);
+}
+
+.fondo > img{
+  height: 500px;
+  width: 1100px;
+  position: relative;
+  top: -45px;
+  left: 22px;
+  display: none;
+}

@@ -1,0 +1,128 @@
+body{
+  overflow: hidden;
+}
+#tips{
+  width: 88.5%;
+  height: 50px;
+  background-color: transparent;
+  position: relative;
+  top: -733px;
+  left: 147px;
+}
+#tips > div > img{
+    height: 40px;
+    width: 98%;
+    filter: brightness(-1);
+    position: relative;
+    left: 10px;
+}
+#tips > div > p {
+  font-size: 20px;
+  font-style: arial;
+  color: #e6e6e6;
+  position: relative;
+  background-color: black;
+  top: -38px;
+  left: 35px;
+  width: 1050px;
+}
+
+#principal{
+  width: 44.25%;
+  height: 530px;
+  position: relative;
+  top: -736px;
+  left: 147px;
+  border-right: thick double gray;
+}
+
+#principal > p{
+  font-size: 20px;
+  font-style: arial;
+  color: #0ca1ff;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+}
+
+#principal > div > img{
+  width:95%;
+  position: relative;
+  left: 20px;
+  top:80px;
+  filter: brightness(0.8);
+}
+
+#controles{
+  width: 44.24%;
+  height: 530px;
+  position: relative;
+  top: -1270px;
+  left: 713px;
+}
+
+p{
+  font-size: 20px;
+  color: #e6e6e6;
+  text-align: center;
+}
+
+#controles h1{
+  color: #0ca1ff;
+  text-align: center;
+  position: relative;
+  top: -10px;
+}
+
+.green p > span {
+  color: green;
+}
+
+.red p > span {
+  color: red;
+}
+
+.yellow p > span {
+  color: yellow;
+}
+
+#correccion img{
+  width: 500px;
+  height: 270px;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  filter: brightness(-1);
+
+}
+
+#correccion p{
+  width: 460px;
+  position: relative;
+  top: -200px;
+  left: 50px;
+}
+
+#check > i, #ex > i{
+  font-size: 70px;
+}
+
+#check > i{
+  position: relative;
+  top: -180px;
+  left: 350px;
+}
+
+#ex > i{
+  position: relative;
+  top: -250px;
+  left: 150px;
+}
+
+#check > i:hover{
+  color: green;
+}
+
+#ex > i:hover{
+  color: red;
+}

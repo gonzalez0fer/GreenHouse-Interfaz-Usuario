@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GreenHouse : : Temperatura</title>
+    <link rel="stylesheet" href="../css/temperatura.css" media="screen" title="no title">
+    <link rel="shortcut icon" href="../img/icons/greenhouse.png" />
+    <link rel="stylesheet" href="../css/apps.css" media="screen" title="no title">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/npm.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+
+<link rel='stylesheet prefetch' href='../css/roundslider.css'>
+<style media="screen">
+#slider {
+  position: absolute;
+  z-index: 2;
+  top: 300px;
+  left: 290px;
+  transform: translate(-50%, -50%);
+  font-family: Roboto, sans-serif;
+}
+#slider::before, #slider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 250px;
+  background: #000;
+  border-radius: 50%;
+  z-index: 1;
+}
+#slider::after {
+  z-index: 2;
+  box-shadow: inset 0 0 5px #000;
+  background: linear-gradient(-190deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%);
+}
+
+#animation1.rs-animation .rs-transition {
+  transition: all .1s ease-in-out;
+}
+
+.rs-gradient, .rs-gradient:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 170px;
+  height: 170px;
+  background: #006fd6;
+  box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.2), inset 0 3px 5px rgba(0, 0, 0, 0.1), 0 0 3px #000;
+  border-radius: 50%;
+  z-index: 3;
+  opacity: 0.8;
+}
+
+.rs-gradient:after {
+  background: linear-gradient(0, transparent, rgba(0, 0, 0, 0.4));
+}
+
+.rs-path-color {
+  background: #444;
+}
+
+.rs-range-color {
+  background: #fff;
+  transition: background .02s ease-in-out;
+}
+
+.rs-border {
+  border: 1px solid #000;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.rs-seperator {
+  border: none;
+}
+
+.rs-border, .rs-bg-color {
+  background: #000;
+}
+
+.rs-tooltip-text {
+  font-family: Roboto, sans-serif;
+  font-size: 53px;
+  border-radius: 7px;
+  transition: background .02s ease-in-out;
+  color: #fff;
+  pointer-events: none;
+  transform: translateY(3px);
+}
+
+.rs-tooltip-text:before {
+  position: absolute;
+  left: -10px;
+  top: -11px;
+  content: 'TEMPERATURA';
+  font-size: 11px;
+}
+
+#slider > div > span.rs-tooltip.rs-tooltip-text{
+  left: 74px;
+}
+
+#grados > p{
+  font-size: 30px;
+  color: #e6e6e6;
+  position: relative;
+  z-index: 5;
+  top: -1740px;
+  left: 1026px;
+}
+.rs-handle {
+  background: none;
+  border: none;
+  background: none;
+  width: 60px;
+  height: 60px;
+}
+.rs-handle::after {
+  background: #fff;
+  border-radius: 0;
+  border: none;
+  height: 1px;
+  width: 14px;
+  margin: 8px 0 0 3px;
+}
+
+.rs-handle.rs-move {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+}
+
+</style>
+
+  </head>
+  <body>
+    <!--Contenedor general-->
+  	<section id="contenedor">
+      <div class="navbar navbar-inverse navbar-fixed-left">
+        <a class="navbar-brand" href="../index.html"><span class="fa fa-leaf" style="font-size:30px"> </span><strong>GreenHouse</strong></a>
+        <ul class="nav navbar-nav">
+         <li><a href="seguridad.html"><span class="fa fa-shield"> </span><strong>&nbsp;&nbsp;Seguridad</strong></a></li>
+         <li><a href="iluminacion1.html"><span class="fa fa-lightbulb-o"  style="font-size:20px"> </span><strong>&nbsp;&nbsp;Iluminación</strong></a></li>
+         <li><a href="musica.html"><span class="fa fa-music" style="font-size:20px"> </span><strong>&nbsp;&nbsp;Música</strong></a></li>
+         <li><a href="agua.html"><span class="fa fa-tint" style="font-size:20px"> </span><strong>&nbsp;&nbsp;Agua</strong></a></li>
+         <li><a href="aroma.html"><span class="fa fa-pagelines" style="font-size:20px"> </span><strong>&nbsp;&nbsp;Aroma</strong></a></li>
+         <li><a href="energia.html"><span class="fa fa-bolt" style="font-size:20px"> </span><strong>&nbsp;&nbsp;Energía</strong></a></li>
+         <li><a class="active"><span class="fa fa-thermometer-empty" style="font-size:19px"> </span><strong>&nbsp;&nbsp;Temperatura</strong></a></li>
+         <li><a href="basura.html"><span class="fa fa-trash" style="font-size:20px"> </span><strong>&nbsp;&nbsp;Basura</strong></a></li>
+         <li><a href="store.html"><span class="fa fa-leaf" style="font-size:15px"> </span><strong>&nbsp;&nbsp;GreenStore</strong></a></li>
+        </ul>
+      </div>
+      <section id="banner">
+        <div>
+          <img src="../img/banners/temp.jpg" alt="">
+        </div>
+      </section>
+
+      <section id="principal">
+
+        <div>
+          <img src="../img/images/clima2.jpg" alt="">
+
+        </div>
+
+      </section>
+      <section id="controles">
+        <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+            <label class="onoffswitch-label" for="myonoffswitch">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+        </div>
+        <div id="slider"></div>
+      </section>
+
+      <div id="tips">
+        <h1>Temperatura de la casa</h1>
+        <img src="../img/transparencia.png" alt="">
+      </div>
+
+      <div id="grados">
+        <p>ºC</p>
+      </div>
+
+      <div id="tip1">
+        <p><strong>TIPS:</strong> la temperatura ambiente es agradable,
+        puedes apagar el aire.</p>
+      </div>
+
+      <div id="clima1">
+        <img src="../img/images/clima1.png" alt="">
+        <h1>21ºC <br><small> exterior</small></h1>
+      </div>
+
+
+
+    </section>
+
+    <script src='../js/jquery.js'></script>
+<script src='../js/roundslider.js'></script>
+
+  <script src="../js/temp.js"></script>
+  </body>
+</html>

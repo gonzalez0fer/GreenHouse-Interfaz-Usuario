@@ -1,0 +1,110 @@
+#alerta{
+  width: 44.25%;
+  height: 100%;
+  position: relative;
+  top: -730px;
+  left: 147px;
+  border-right: thick double gray;
+  background-image: url(../img/images/fire.jpg);
+}
+
+#alerta h1{
+  text-align: center;
+  font-family: arial;
+  color: red;
+  position: relative;
+  top: 100px;
+  font-weight: bold;
+
+}
+
+#alerta2{
+  width: 44.25%;
+  height: 100%;
+  position: relative;
+  top: -730px;
+  left: 147px;
+  border-right: thick double gray;
+  background-color: black;
+}
+
+#intruso img{
+  width: 80%;
+  position: relative;
+  top: 140px;
+  left: 50px;
+  filter: brightness(0.5);
+}
+
+#alerta2 h1{
+  text-align: center;
+  font-family: arial;
+  color: red;
+  position: relative;
+  top: 100px;
+  font-weight: bold;
+
+}
+
+#puntaje div > img{
+  width: 100%;
+  position: relative;
+  top: 120px;
+}
+
+#catalogo{
+  width: 44.24%;
+  height: 100%;
+  position: relative;
+  top: -1460px;
+  left: 713px;
+  border-right: thick double gray;
+}
+
+#catalogo h1{
+  text-align: center;
+  font-family: arial;
+  color: red;
+  position: relative;
+  top: 100px;
+  font-weight: bold;
+
+}
+
+#catalogo h2{
+  text-align: center;
+  font-family: arial;
+  color: #e6e6e6;
+  position: relative;
+  top: 100px;
+  font-weight: bold;
+}
+
+#catalogo p{
+  width: 80%;
+  font-family: arial;
+  font-size: 20px;
+  color: #e6e6e6;
+  position: relative;
+  top: 200px;
+  left: 50px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+#entrar {
+  position: relative;
+  top: 270px;
+  left: 50px;
+}
+
+#ignorar {
+  position: relative;
+  top: 250px;
+  left: 180px;
+}
+
+#entrar > button, #ignorar > button {
+  width: 200px;
+  height: 100px;
+}

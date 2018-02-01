@@ -1,0 +1,88 @@
+body{
+  overflow: hidden;
+}
+
+#principal{
+  width: 88.5%;
+  height: 35%;
+  position: relative;
+  top: -700px;
+  left: 147px;
+  border-bottom: thick double gray;
+}
+
+#botones{
+  width: 88.5%;
+  height: 40%;
+  background-color: transparent;
+  position: relative;
+  top: -700px;
+  left: 147px;
+
+}
+
+#principal div > img{
+position: relative;
+left: 25%;
+top: -320px;
+}
+
+#camara{
+  position: relative;
+  top: 30px;
+  left: 900px;
+
+}
+
+#principal > h1{
+  color: #e6e6e6;
+  position: relative;
+  top: -730px;
+  left: 690px;
+}
+
+#principal > h3{
+  color: #e6e6e6;
+  position: relative;
+  top: -730px;
+  left: 750px;
+}
+
+#principal > h3 > span{
+  color: green;
+
+}
+
+#column1{
+  display: inline-block;
+  width: 44%;
+  height: 290px;
+  border-right: thick double gray;
+
+
+}
+#column2{
+  display: inline-block;
+  width: 44%;
+}
+
+#column1 > p , #column2 > p {
+  font-size: 20px;
+  font-style: arial;
+  font-weight: bold;
+  color: #0ca1ff;
+  text-align: center;
+}
+
+#column1 > label  ,
+#column2 > label  {
+position: relative;
+left: 80px;
+top: 15px;
+width: 400px;
+}
+
+#column1 > label > span  ,
+#column2 > label > span {
+  font-size: 15px;
+}
